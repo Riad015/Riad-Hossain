@@ -73,7 +73,8 @@ const Project = ({ data, handleClickID, ProjectList, loading }) => {
           content: {
             backgroundColor: "#131a22",
             color: "#9f9f9f",
-            padding: "60px",
+            inset: '25px',
+            padding: "16px",
             display: "flex",
             flexDirection: "column",
           },

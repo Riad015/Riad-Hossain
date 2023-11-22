@@ -4,7 +4,7 @@ import ContactInfo from "../../components/ContactInfo";
 
 const Contact = ({ name, email, location }) => {
   return (
-    <>
+    <div className="contactContainer">
       <section className="contact container">
         <PageHeader title="Contact" description="Get in touch" />
         <div className="contactWrap container">
@@ -18,7 +18,7 @@ const Contact = ({ name, email, location }) => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

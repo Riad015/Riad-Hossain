@@ -84,12 +84,14 @@ const AboutMe = ({ name }) => {
                   </NavLink>
                 </div>
                 <div>
-                  <motion.a className="btn" href={cv} download={cv} whilehover={{ scale: 1.05 }} whileTap={{ scale: 0.99 }} >
-                    <p>Download CV</p>
-                    <div>
-                      <FiArrowUpRight whilehover={{ scale: 4 }} className="arrow-icon" />
-                    </div>
-                  </motion.a>
+                  <NavLink to="/portfolio">
+                    <motion.a className="btn" href={cv} download={cv} whilehover={{ scale: 1.05 }} whileTap={{ scale: 0.99 }} >
+                      <p>Download CV</p>
+                      <div>
+                        <FiArrowUpRight whilehover={{ scale: 4 }} className="arrow-icon" />
+                      </div>
+                    </motion.a>
+                  </NavLink>
                 </div>
               </div>
 

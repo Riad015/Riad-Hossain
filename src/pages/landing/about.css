@@ -4,11 +4,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: var(--spacing);
+  padding-top: var(--spacing);
+  background-color: var(--bg2-color);
 }
 
 .aboutContainer {
-  background-color: var(--bg2-color);
   padding: var(--spacing) 0;
 }
 

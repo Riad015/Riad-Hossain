@@ -1,5 +1,7 @@
 /* --- MOBILE STYLES --- */
-
+.contactContainer{
+  background-color: var(--bg-color);
+}
 .contact {
   display: flex;
   flex-direction: column;

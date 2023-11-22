@@ -40,7 +40,7 @@ const Portfolio = () => {
   }
 
   return (
-    <>
+    <div className="portfolioContainer">
       <section className="portfolio container">
         <PageHeader title="Portfolio" description="View my work" />
         <div className="row">
@@ -69,7 +69,7 @@ const Portfolio = () => {
         </div> */}
 
       </section>
-    </>
+    </div>
   );
 };
 

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { AiOutlineStar } from "react-icons/ai";
 import { BiGitRepoForked } from "react-icons/bi";
 import SocialIcons from "../components/SocialIcons";
+import './Footer.css'
 const Footer = () => {
   const date = new Date();
   const currentYear = date.getFullYear();
@@ -25,7 +26,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer>
+    <footer className="footerContainer">
       <SocialIcons />
       <a className="footer-link" href="https://github.com/naimuddin01">
         <span>

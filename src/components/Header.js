@@ -1,5 +1,5 @@
 import NavLinks from "./NavLinks";
-import logo from "../images/open2.svg";
+import logo from "../images/open4.gif";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 
@@ -13,7 +13,7 @@ const Header = () => {
           transition={{ delay: 2, duration: 0.5, type: "spring" }}
         >
           <motion.img
-            whilehover={{ scale: 1.05 }}
+            whilehover={{ scale: 2.05 }}
             whileTap={{ scale: 0.9 }}
             className="logo"
             src={logo}

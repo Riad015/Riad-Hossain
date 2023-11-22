@@ -1,5 +1,7 @@
 /* --- MOBILE STYLES --- */
-
+.portfolioContainer{
+  background-color: var(--bg2-color);
+}
 .portfolio {
   display: flex;
   flex-direction: column;
@@ -7,6 +9,7 @@
   overflow: hidden;
   margin-top: var(--spacing);
   padding-bottom: var(--spacing);
+
 }
 
 .projectCard {
@@ -74,8 +77,8 @@
 
 .closeModal {
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 20px;
+  right: 5px;
 }
 
 .closeModal:hover {
@@ -86,8 +89,8 @@
   text-align: left;
   margin-bottom: var(--sm-spacing);
   color: white;
-  white-space: nowrap;
-  font-size: 30px;
+  /* white-space: nowrap; */
+  font-size: 40px;
 }
 
 .projectDescription {

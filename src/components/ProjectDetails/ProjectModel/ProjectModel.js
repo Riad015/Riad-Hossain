@@ -40,7 +40,7 @@ const ProjectModel = ({ data }) => {
 
 
             }
-            <h3 className="modalTitle">{title}</h3>
+            <div><h3 className="modalTitle">{title}</h3></div>
             <h2>{description}</h2>
             <div className="tech  grid grid-cols-2 md:grid-cols-5 xl:grid-cols-8 gap-2 mt-4">
                 {technologies?.map((technology, _id) => (
