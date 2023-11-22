@@ -49,34 +49,7 @@ const Resume = ({ brand }) => {
             >
               Professional Skills
             </li>
-            {/* <li
-            onClick={() =>
-              setEducationData(false) &
-              setSkillData(false) &
-              setExperienceData(true) &
-              setAchievementData(false)
-            }
-            className={`${experienceData
-              ? "bg-black bg-opacity-25"
-              : ""
-              }w-full h-20 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none`}
-          >
-            Experience
-          </li> */}
-            {/* <li
-            onClick={() =>
-              setEducationData(false) &
-              setSkillData(false) &
-              setExperienceData(false) &
-              setAchievementData(true)
-            }
-            className={`${achievementData
-              ? "bg-black bg-opacity-25"
-              : ""
-              }w-full h-20 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none`}
-          >
-            WORKSHOP & TRAINING
-          </li> */}
+            
           </ul>
         </div>
         {educationData && <Education></Education>}

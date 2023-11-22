@@ -11,6 +11,7 @@ import Banner from './Banner';
 
 const ProjectModel = ({ data }) => {
     const { _id, title, github, demo, details, topics, technologies, description, projectImg } = data
+    const isDisabled = true;
     // console.log('ProjectModel',_id )
     return (
         <>
@@ -70,10 +71,11 @@ const ProjectModel = ({ data }) => {
                 </motion.button>
 
                 <motion.button
-                    whilehover={{ scale: 1.05 }}
-                    whileTap={{ scale: 1 }}
-                    className="btn"
-                    onClick={() => (window.location.href = demo)}
+                    whileHover={!isDisabled ? { scale: 1.05 } : undefined}
+                    whileTap={!isDisabled ? { scale: 1 } : undefined}
+                    className={`btn ${isDisabled ? 'disabled' : ''}`}
+                    onClick={!isDisabled ? () => (window.location.href = demo) : undefined}
+                    disabled={isDisabled}
                 >
                     Live
                 </motion.button>
