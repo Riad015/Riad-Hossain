@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { NavLink } from "react-router-dom";
 import { FiArrowUpRight } from "react-icons/fi";
-import cv from '../images/cvnaim.pdf'
+import cv from '../images/naim.pdf'
 
 const AboutMe = ({ name }) => {
   const [ref, inView] = useInView({
@@ -44,7 +44,7 @@ const AboutMe = ({ name }) => {
             <motion.div className="contentContainer" variants={staggerVariants}>
 
               <motion.h4 variants={paragraphVariants}>Nice to meet you! 👋🏻</motion.h4>
-              <motion.h5 variants={paragraphVariants}>I'm a Software Engineer.</motion.h5>
+              <motion.h5 variants={paragraphVariants}>I'm a Computer Engineer.</motion.h5>
               <motion.div
                 className="contentDescription"
                 variants={staggerVariants}
@@ -52,7 +52,7 @@ const AboutMe = ({ name }) => {
                 animate={inView ? "animate" : "initial"}
               >
                 <motion.p variants={paragraphVariants}>
-                  Hi everyone! I'm Naim Uddin, a dedicated and results-oriented software engineer who enjoys using beautiful and effective code to bring concepts to life. Having a strong background in computer science and a talent for problem-solving, I work best in dynamic settings where teamwork and creativity are combined.
+                  Hi everyone! Riad Hossain here, a dedicated and results-oriented Computer engineer who enjoys using beautiful and effective code to bring concepts to life. Having a strong background in computer science and a talent for problem-solving, I work best in dynamic settings where teamwork and creativity are combined.
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
@@ -84,14 +84,12 @@ const AboutMe = ({ name }) => {
                   </NavLink>
                 </div>
                 <div>
-                  <NavLink to="/portfolio">
-                    <motion.a className="btn" href={cv} download={cv} whilehover={{ scale: 1.05 }} whileTap={{ scale: 0.99 }} >
-                      <p>Download CV</p>
-                      <div>
-                        <FiArrowUpRight whilehover={{ scale: 4 }} className="arrow-icon" />
-                      </div>
-                    </motion.a>
-                  </NavLink>
+                  <motion.a className="btn" href={cv} download={cv} whilehover={{ scale: 1.05 }} whileTap={{ scale: 0.99 }} >
+                    <p>Download CV</p>
+                    <div>
+                      <FiArrowUpRight whilehover={{ scale: 4 }} className="arrow-icon" />
+                    </div>
+                  </motion.a>
                 </div>
               </div>
 

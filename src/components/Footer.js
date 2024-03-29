@@ -28,13 +28,13 @@ const Footer = () => {
   return (
     <footer className="footerContainer">
       <SocialIcons />
-      <a className="footer-link" href="https://github.com/naimuddin01">
+      <a className="footer-link" href="https://github.com/Riad015">
         <span>
           {/* <AiOutlineStar /> {gitHubInfo.stars} <BiGitRepoForked /> */}
           {gitHubInfo.forks} - Show your support by giving this project a star!
         </span>
         <p>
-          <span>▷</span> Designed and built by Naim Uddin &copy; {currentYear}
+          <span>▷</span> Designed and built by Riad Hossain &copy; {currentYear}
         </p>
         <p>All views and work are my own</p>
       </a>

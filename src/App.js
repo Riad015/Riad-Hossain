@@ -11,9 +11,9 @@ import PageNotFound from "./pages/404/PageNotFound";
 
 function App() {
   const personalDetails = {
-    name: "Naim Uddin",
-    location: "Bangladesh, khulna",
-    email: "bsmrstunaimuddin@gmail.com",
+    name: "Riad Hossain",
+    location: "Bangladesh, khulna, Narail",
+    email: "riadhossainnill@gmail.com",
     // availability: "Not Available",
     // brand:
     //   "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",

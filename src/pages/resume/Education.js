@@ -20,21 +20,21 @@ const Education = () => {
                         <ResumeCard
                             // style={{ backgroundColor: '#e47911' }}
                             title="Bachelor of Science (B.Sc)"
-                            subTitle="Computer Science Engineering (CSE) (2018 - 2022)"
+                            subTitle="Computer Science Engineering (CSE)"
                             result="3.11 GPA"
                             des="Bangabandhu Sheikh Mujibur Rahman Science and Technology University"
                         />
                         <ResumeCard
                             title="Higher Secondary Education"
                             subTitle="Science"
-                            result="4.08 GPA"
-                            des="Government Sundarban Adarsha College ( Jessore Board )"
+                            result="5.00 GPA"
+                            des="Narail Govt. Victoria Collage ( Jessore Board )"
                         />
                         <ResumeCard
                             title="Secondary School Certificate (SSC)"
                             subTitle="Science"
-                            result="4.06 GPA "
-                            des="Khulna Government Model School & College( Jessore Board ) "
+                            result="5.00 GPA "
+                            des="Government Model School & College( Jessore Board ) "
                         />
                     </div>
                 </div>
